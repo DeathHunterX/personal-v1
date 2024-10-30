@@ -42,3 +42,26 @@ export const SOCIAL_MEDIA: SocialMediaItem[] = [
     url: PortfolioInfo.socialMedia.mailTo,
   },
 ];
+
+export const TECH_CATEGORIES = [
+  {
+    name: "All",
+    value: undefined,
+  },
+  {
+    name: "Web App's",
+    value: "Web App's",
+  },
+  {
+    name: "Machine Learning",
+    value: "Machine Learning",
+  },
+  {
+    name: "Data Visualization",
+    value: "Data Visualization",
+  },
+  {
+    name: "Big Data",
+    value: "Big Data",
+  },
+];

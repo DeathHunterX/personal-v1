@@ -72,7 +72,7 @@ const IntroductionSection = () => {
               >
                 I
                 <span
-                  className="absolute flex flex-col transition-all duration-500 ease-in-expo"
+                  className="ease-in-transition absolute flex flex-col"
                   style={{
                     top:
                       count === 0

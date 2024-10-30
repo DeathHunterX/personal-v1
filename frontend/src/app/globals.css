@@ -44,6 +44,9 @@
   .badge {
     @apply bg-badge-light/50 dark:bg-badge-dark border text-xs font-semibold border-transparent rounded border-none px-3 py-1;
   }
+  .ease-in-transition {
+    @apply ease-in-expo transition-all duration-500;
+  }
 }
 
 @layer utilities {

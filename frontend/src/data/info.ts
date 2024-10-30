@@ -14,9 +14,9 @@ export const PortfolioInfo = {
     "visualize data for insights",
   ],
   socialMedia: {
-    linkedIn: "https://www.linkedin.com/in/vasile-novatchii",
-    gitHub: "https://github.com/Infvyr",
-    mailTo: "mailto://vnovatchi@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/loi-phan-thanh-961387257/",
+    gitHub: "https://github.com/DeathHunterX",
+    mailTo: "mailto://phanthanhloi22112001@gmail.com",
   },
   aboutMe: "",
   experiences: [
