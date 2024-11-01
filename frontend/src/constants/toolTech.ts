@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import {
   AiFillHtml5,
   AiOutlineAntDesign,
@@ -40,7 +41,7 @@ import {
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 
-export const ToolsAndTechs = {
+export const ToolsAndTechs: Record<string, IconType | string> = {
   HTML: AiFillHtml5,
   CSS: DiCss3,
   JavaScript: IoLogoJavascript,
@@ -70,7 +71,8 @@ export const ToolsAndTechs = {
   Pandas: SiPandas,
   NumPy: SiNumpy,
   "Power BI": SiPowerbi,
-  Matplotlib: "",
+  Matplotlib: "/assets/images/matplotlib.svg",
+  Seaborn: "/assets/images/seaborn.svg",
 
   AWS: FaAws,
   Vercel: SiVercel,

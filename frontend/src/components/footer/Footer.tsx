@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { ConnectMedia } from "../header/ConnectMedia";
+import SocialMedia from "../SocialMedia";
 
 const Footer = () => {
   const footerRef = useRef(null);
@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="font-light">
             Copyright &copy; {year} Loi Phan. All rights reserved. No Cookies.
           </p>
-          <ConnectMedia />
+          <SocialMedia type="navigation" />
         </div>
       </footer>
     </LazyMotion>

@@ -4,7 +4,7 @@ import { LazyMotion, domAnimation, m } from "framer-motion";
 import { initial, animate, exit, transition } from "@/lib/utils";
 import { SOCIAL_MEDIA } from "@/constants/index";
 
-export function ConnectMedia() {
+const SocialMedia = () => {
   return (
     <LazyMotion features={domAnimation}>
       <m.nav
@@ -35,4 +35,6 @@ export function ConnectMedia() {
       </m.nav>
     </LazyMotion>
   );
-}
+};
+
+export default SocialMedia;

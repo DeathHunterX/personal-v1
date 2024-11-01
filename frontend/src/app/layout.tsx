@@ -5,6 +5,7 @@ import { AppMetadata } from "@/data/AppMetadata";
 import { ThemeProvider } from "next-themes";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import { ScrollTop } from "@/components/ScrollTop";
 
 export const metadata: Metadata = { ...AppMetadata };
 export const viewport: Viewport = {
@@ -21,8 +22,9 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class">
           <Header />
-          <div className="">{children}</div>
+          {children}
           <Footer />
+          <ScrollTop />
         </ThemeProvider>
       </body>
     </html>

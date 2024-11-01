@@ -1,13 +1,10 @@
-"use client";
-
-import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import HeadingDivider from "@/components/HeadingDivider";
+import { useRef } from "react";
 
-const AboutSection = () => {
+const EducationSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   return (
     <LazyMotion features={domAnimation}>
       <section id="about" className="section">
@@ -47,4 +44,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default EducationSection;

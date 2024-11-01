@@ -1,7 +1,7 @@
 "use client";
 
 import { useMediaQuery } from "@/hooks/useMediaQuery";
-import { ConnectMedia } from "./ConnectMedia";
+import SocialMedia from "../SocialMedia";
 import Logo from "./Logo";
 import { Menu } from "./Menu";
 import { MobileMenu } from "./MobileMenu";
@@ -17,7 +17,7 @@ const Header = () => {
           <Logo />
           {isMobile ? <MobileMenu /> : <Menu />}
           <div className="flex items-center gap-5">
-            {!isMobile && <ConnectMedia />}
+            {!isMobile && <SocialMedia />}
             <Theme />
           </div>
         </div>

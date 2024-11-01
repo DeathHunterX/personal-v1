@@ -14,7 +14,7 @@ import {
 
 import { m, AnimatePresence, domAnimation, LazyMotion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
-import { ConnectMedia } from "./ConnectMedia";
+import SocialMedia from "../SocialMedia";
 import { Menu } from "./Menu";
 
 export function MobileMenu() {
@@ -49,8 +49,8 @@ export function MobileMenu() {
             animate={animateMobile}
             exit={exitMobile}
           >
-            <header className="z-10 flex items-center justify-between border-b border-b-brand-light p-6">
-              <ConnectMedia />
+            <header className="border-b-brand-light z-10 flex items-center justify-between border-b p-6">
+              <SocialMedia type="navigation" />
               <button
                 onClick={onClose}
                 className="inline-flex size-10 items-center justify-center"

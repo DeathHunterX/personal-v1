@@ -7,6 +7,7 @@ import { ToolsAndTechs } from "@/constants/toolTech";
 import { TechnologyName } from "@/types";
 import { FaCircle } from "react-icons/fa";
 import { PortfolioInfo } from "@/data/info";
+import Image from "next/image";
 
 const TechnologiesSection = () => {
   const textRef = useRef(null);
@@ -51,12 +52,22 @@ const TechnologiesSection = () => {
                   <h3 className="text-2xl font-bold">{tech.category}</h3>
                   <div className="flex flex-wrap items-center gap-x-5 gap-y-8">
                     {tech.items.map((name) => {
-                      const Icon =
-                        ToolsAndTechs[name as TechnologyName] || null;
+                      const Icon = ToolsAndTechs[name as TechnologyName];
                       return (
                         <div key={name} className="group relative flex">
                           <span role="img">
-                            {Icon ? <Icon size={32} /> : <FaCircle size={32} />}
+                            {typeof Icon === "string" ? (
+                              <Image
+                                src={Icon}
+                                width={36}
+                                height={36}
+                                alt={name}
+                              />
+                            ) : Icon ? (
+                              <Icon size={32} />
+                            ) : (
+                              <FaCircle size={32} />
+                            )}
                           </span>
                           <span
                             className="absolute left-1/2 mx-auto mt-3 w-max -translate-x-1/2 translate-y-full rounded-md bg-gray-800
