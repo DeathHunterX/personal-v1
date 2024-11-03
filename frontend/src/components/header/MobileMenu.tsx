@@ -50,7 +50,7 @@ export function MobileMenu() {
             exit={exitMobile}
           >
             <header className="border-b-brand-light z-10 flex items-center justify-between border-b p-6">
-              <SocialMedia type="navigation" />
+              <SocialMedia />
               <button
                 onClick={onClose}
                 className="inline-flex size-10 items-center justify-center"

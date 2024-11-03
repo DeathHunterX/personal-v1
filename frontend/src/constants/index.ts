@@ -60,7 +60,7 @@ export const TECH_CATEGORIES = [
     value: "Data Visualization",
   },
   {
-    name: "Big Data",
-    value: "Big Data",
+    name: "Data Engineering",
+    value: "Data Engineering",
   },
 ];

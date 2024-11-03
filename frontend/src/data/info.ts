@@ -4,7 +4,7 @@ export const PortfolioInfo = {
   cvLink:
     "https://drive.google.com/file/d/17pUHaIjn1FfQ9XXBeXHOeUkwId3Pz8dh/view?usp=sharing",
   header: {
-    title: "Hi, I'm Loi a passionate software developer",
+    title: "Hi, I'm Loi a passionate web developer and data engineer",
     mark: ["Loi", "passionate"],
   },
   description: [
@@ -19,13 +19,7 @@ export const PortfolioInfo = {
     mailTo: "mailto://phanthanhloi22112001@gmail.com",
   },
   aboutMe: "",
-  experiences: [
-    { year: 2023, text: "Start my journey as a Flutter developer" },
-    { year: 2022, text: "Start my journey as a React developer" },
-    { year: 2021, text: "Dive completely into React.js" },
-    { year: 2018, text: "Work as a WordPress developer" },
-    { year: 2017, text: "Start a 3mo WordPress internship" },
-  ],
+  experiences: [{ year: "", text: "" }],
   toolsAndTechs: [
     {
       category: "Languages",
@@ -44,21 +38,15 @@ export const PortfolioInfo = {
     },
     {
       category: "Data Storage",
-      items: ["MySQL", "PostgreSQL", "MongoDB", "CassandraDB"],
+      items: ["MySQL", "MongoDB", "CassandraDB"],
     },
     {
       category: "Big Data",
-      items: [
-        "Apache Hadoop",
-        "Apache Kafka",
-        "Apache Spark",
-        "Apache Airflow",
-        "Databricks",
-      ],
+      items: ["Apache Hadoop", "Apache Kafka"],
     },
     {
       category: "Data Analysis & Visualization",
-      items: ["Pandas", "NumPy", "Power BI", "Matplotlib", "Seaborn"],
+      items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI"],
     },
     {
       category: "Cloud Services & Deployment",

@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="font-light">
             Copyright &copy; {year} Loi Phan. All rights reserved. No Cookies.
           </p>
-          <SocialMedia type="navigation" />
+          <SocialMedia />
         </div>
       </footer>
     </LazyMotion>
